@@ -60,11 +60,9 @@ func RunRepairReport(f RepairReport) int {
 		expenses = append(expenses, exp)
 	}
 
-	r := f(expenses)
-
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
 
-	return r
+	return f(expenses)
 }
