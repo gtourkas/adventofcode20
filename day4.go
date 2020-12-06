@@ -101,14 +101,13 @@ func RunCountValidPassports(fileName string, validate bool) int {
 
 		lines = append(lines, line)
 	}
+	if err := scanner.Err(); err != nil {
+		log.Fatal(err)
+	}
 
 	if len(lines) > 0 {
 		entry := CreatePassportEntry(lines)
 		entries = append(entries, entry)
-	}
-
-	if err := scanner.Err(); err != nil {
-		log.Fatal(err)
 	}
 
 	return CountValidPassports(entries, validate)

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07c87318-5ebd-44cc-a88e-cf67d646e7c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4_allinvalids" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4_allvalids" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4_input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1l4IeJvK3Hr9F0aG4a4ZuCzARCp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,8 +50,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test adventofcode20">
-    <configuration name="TestEyrValidation in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestBinaryBoardingWithPuzzleInputToFindMaxSeatID in adventofcode20">
+    <configuration name="TestBinaryBoardingWithExamples in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -59,10 +59,10 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestEyrValidation\E$" />
+      <pattern value="^\QTestBinaryBoardingWithExamples\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIyrValidation in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBinaryBoardingWithPuzzleInput in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -70,10 +70,10 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestIyrValidation\E$" />
+      <pattern value="^\QTestBinaryBoardingWithPuzzleInput\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestRunCountValidPassportsAllValidsInputWithValidation in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBinaryBoardingWithPuzzleInputToFindMaxSeatID in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -81,10 +81,10 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestRunCountValidPassportsAllValidsInputWithValidation\E$" />
+      <pattern value="^\QTestBinaryBoardingWithPuzzleInputToFindMaxSeatID\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestRunCountValidPassportsPuzzleInputWithValidation in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBinaryBoardingWithPuzzleInputToFindMySeatID in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -92,7 +92,7 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestRunCountValidPassportsPuzzleInputWithValidation\E$" />
+      <pattern value="^\QTestBinaryBoardingWithPuzzleInputToFindMySeatID\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -107,17 +107,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBinaryBoardingWithPuzzleInputToFindMaxSeatID in adventofcode20" />
+        <item itemvalue="Go Test.TestBinaryBoardingWithExamples in adventofcode20" />
+        <item itemvalue="Go Test.TestBinaryBoardingWithPuzzleInputToFindMySeatID in adventofcode20" />
+        <item itemvalue="Go Test.TestBinaryBoardingWithPuzzleInput in adventofcode20" />
         <item itemvalue="Go Test.go test adventofcode20" />
-        <item itemvalue="Go Test.TestRunCountValidPassportsPuzzleInputWithValidation in adventofcode20" />
-        <item itemvalue="Go Test.TestRunCountValidPassportsAllValidsInputWithValidation in adventofcode20" />
-        <item itemvalue="Go Test.TestEyrValidation in adventofcode20" />
-        <item itemvalue="Go Test.TestIyrValidation in adventofcode20" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 4" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -135,54 +139,66 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="659" y="429" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1607067495690" />
+    <state x="574" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607198260379">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="574" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1607198260379" />
     <state x="649" y="251" key="#xdebugger.evaluate" timestamp="1606935164372">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="649" y="251" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1606935164372" />
+    <state x="2185" y="137" key="CommitChangelistDialog2" timestamp="1607071908104">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2185" y="137" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607071908104" />
     <state width="708" height="466" key="DebuggerActiveHint" timestamp="1606935441125">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="708" height="466" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1606935441125" />
-    <state width="1545" height="410" key="GridCell.Tab.0.bottom" timestamp="1607071644644">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1545" height="410" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1607068251713" />
-    <state width="1545" height="410" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607071644644" />
-    <state width="1545" height="410" key="GridCell.Tab.0.center" timestamp="1607071644643">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1545" height="410" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1607068251712" />
-    <state width="1545" height="410" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607071644643" />
-    <state width="1545" height="410" key="GridCell.Tab.0.left" timestamp="1607071644643">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1545" height="410" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1607068251712" />
-    <state width="1545" height="410" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607071644643" />
-    <state width="1545" height="410" key="GridCell.Tab.0.right" timestamp="1607071644644">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1545" height="410" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1607068251713" />
-    <state width="1545" height="410" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607071644644" />
-    <state width="1545" height="346" key="GridCell.Tab.1.bottom" timestamp="1607060910837">
+    <state width="1545" height="410" key="GridCell.Tab.0.bottom" timestamp="1607236149795">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1545" height="346" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1607060910837" />
-    <state width="1545" height="346" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1606992822342" />
-    <state width="1545" height="346" key="GridCell.Tab.1.center" timestamp="1607060910836">
+    <state width="1545" height="410" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1607236149795" />
+    <state width="1545" height="346" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607074555393" />
+    <state width="1545" height="410" key="GridCell.Tab.0.center" timestamp="1607236149794">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1545" height="346" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1607060910836" />
-    <state width="1545" height="346" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1606992822341" />
-    <state width="1545" height="346" key="GridCell.Tab.1.left" timestamp="1607060910835">
+    <state width="1545" height="410" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1607236149794" />
+    <state width="1545" height="346" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607074555392" />
+    <state width="1545" height="410" key="GridCell.Tab.0.left" timestamp="1607236149794">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1545" height="346" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1607060910835" />
-    <state width="1545" height="346" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1606992822341" />
-    <state width="1545" height="346" key="GridCell.Tab.1.right" timestamp="1607060910836">
+    <state width="1545" height="410" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1607236149794" />
+    <state width="1545" height="346" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607074555392" />
+    <state width="1545" height="410" key="GridCell.Tab.0.right" timestamp="1607236149795">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1545" height="346" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1607060910836" />
-    <state width="1545" height="346" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1606992822342" />
+    <state width="1545" height="410" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1607236149795" />
+    <state width="1545" height="346" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607074555392" />
+    <state width="1545" height="346" key="GridCell.Tab.1.bottom" timestamp="1607200420044">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1545" height="346" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1607200420044" />
+    <state width="1545" height="346" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607074555393" />
+    <state width="1545" height="346" key="GridCell.Tab.1.center" timestamp="1607200420044">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1545" height="346" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1607200420044" />
+    <state width="1545" height="346" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607074555393" />
+    <state width="1545" height="346" key="GridCell.Tab.1.left" timestamp="1607200420043">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1545" height="346" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1607200420043" />
+    <state width="1545" height="346" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607074555393" />
+    <state width="1545" height="346" key="GridCell.Tab.1.right" timestamp="1607200420044">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1545" height="346" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1607200420044" />
+    <state width="1545" height="346" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607074555393" />
+    <state x="2210" y="395" key="Vcs.Push.Dialog.v2" timestamp="1607071912777">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2210" y="395" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1607071912777" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/adventofcode20$go_test_adventofcode20.out" NAME="go test adventofcode20 Coverage Results" MODIFIED="1606984301384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
