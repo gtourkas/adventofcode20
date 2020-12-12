@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07c87318-5ebd-44cc-a88e-cf67d646e7c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day7.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7_example2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7_input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8_example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8_example2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +52,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestHandyHaversacksPartBWithPuzzleInput in adventofcode20">
-    <configuration name="TestHandyHaversacksParBAWithExample in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestHandheldHaltingPartBWithPuzzleInput in adventofcode20">
+    <configuration name="TestHandheldHaltingPartAWithExample in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -61,10 +61,10 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHandyHaversacksParBAWithExample\E$" />
+      <pattern value="^\QTestHandheldHaltingPartAWithExample\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHandyHaversacksPartAWithExample in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHandheldHaltingPartAWithExample2 in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -72,10 +72,10 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHandyHaversacksPartAWithExample\E$" />
+      <pattern value="^\QTestHandheldHaltingPartAWithExample2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHandyHaversacksPartAWithPuzzleInput in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHandheldHaltingPartAWithPuzzleInput in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -83,10 +83,10 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHandyHaversacksPartAWithPuzzleInput\E$" />
+      <pattern value="^\QTestHandheldHaltingPartAWithPuzzleInput\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHandyHaversacksPartBWithExample2 in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHandheldHaltingPartBWithExample in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -94,10 +94,10 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHandyHaversacksPartBWithExample2\E$" />
+      <pattern value="^\QTestHandheldHaltingPartBWithExample\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHandyHaversacksPartBWithPuzzleInput in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHandheldHaltingPartBWithPuzzleInput in adventofcode20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode20" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -105,16 +105,16 @@
       <package value="adventofcode20" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHandyHaversacksPartBWithPuzzleInput\E$" />
+      <pattern value="^\QTestHandheldHaltingPartBWithPuzzleInput\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestHandyHaversacksPartBWithPuzzleInput in adventofcode20" />
-        <item itemvalue="Go Test.TestHandyHaversacksPartBWithExample2 in adventofcode20" />
-        <item itemvalue="Go Test.TestHandyHaversacksParBAWithExample in adventofcode20" />
-        <item itemvalue="Go Test.TestHandyHaversacksPartAWithExample in adventofcode20" />
-        <item itemvalue="Go Test.TestHandyHaversacksPartAWithPuzzleInput in adventofcode20" />
+        <item itemvalue="Go Test.TestHandheldHaltingPartBWithPuzzleInput in adventofcode20" />
+        <item itemvalue="Go Test.TestHandheldHaltingPartBWithExample in adventofcode20" />
+        <item itemvalue="Go Test.TestHandheldHaltingPartAWithPuzzleInput in adventofcode20" />
+        <item itemvalue="Go Test.TestHandheldHaltingPartAWithExample2 in adventofcode20" />
+        <item itemvalue="Go Test.TestHandheldHaltingPartAWithExample in adventofcode20" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +126,8 @@
     <MESSAGE value="day 4" />
     <MESSAGE value="day 5" />
     <MESSAGE value="day 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 6" />
+    <MESSAGE value="day 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 7" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -145,10 +146,19 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <condition expression="r.Color == &quot;clear brown&quot;" language="go" />
-          <url>file://$PROJECT_DIR$/day7.go</url>
-          <line>141</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/day8.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day8.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day8.go</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
